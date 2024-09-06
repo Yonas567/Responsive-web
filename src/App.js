@@ -8,7 +8,7 @@ const initialItems = [
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="app yonas">
       <Logo />
       <Form />
       <PackingList />
@@ -36,7 +36,7 @@ function Form() {
     setQuantity(1);
   }
   return (
-    <form className="add-form" onSubmit={handleSubmit}>
+    <form className="add-form  yonas" onSubmit={handleSubmit}>
       <h3>What do you need for your 😍 trip?</h3>
       <select
         value={quantity}
