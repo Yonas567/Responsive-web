@@ -36,7 +36,7 @@ function Form() {
     setQuantity(1);
   }
   return (
-    <form className="add-form  yonas" onSubmit={handleSubmit}>
+    <form className="add-form  sofaryonas" onSubmit={handleSubmit}>
       <h3>What do you need for your 😍 trip?</h3>
       <select
         value={quantity}
